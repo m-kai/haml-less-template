@@ -1,0 +1,25 @@
+{
+  "name": "haml-less-template",
+  "version": "1.0.0",
+  "description": "hamlとlessを使ったサイト作成のためのテンプレート",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-kai/haml-less-template.git"
+  },
+  "author": "esper (m-kai)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-kai/haml-less-template/issues"
+  },
+  "homepage": "https://github.com/m-kai/haml-less-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-haml": "^0.1.5",
+    "gulp-less": "^3.0.3"
+  }
+}
