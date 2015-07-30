@@ -3,7 +3,7 @@ var haml = require("gulp-haml")
 var less = require("gulp-less")
 
 gulp.task("default", function() {
-  gulp.src("src/**/*.haml")
+  gulp.src("src/*.haml")
   .pipe(haml())
   .pipe(gulp.dest("dest"))
 
